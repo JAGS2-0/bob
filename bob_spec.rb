@@ -9,7 +9,7 @@ describe Bob do
     expect(bob.hey remark).to eq 'Whatever.'
   end
 
-  skip 'can shout' do
+  it 'can shout' do
     remark = 'WATCH OUT!'
     expect(bob.hey remark).to eq 'Whoa, chill out!'
   end
